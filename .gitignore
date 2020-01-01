@@ -1,0 +1,10 @@
+#ignore
+
+
+/.gradle/
+/.idea/
+.idea/workspace.xml
+/ScreenShots/
+/Logs/
+/out/
+/PrintFilesFolder/
