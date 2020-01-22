@@ -30,7 +30,7 @@ public class Tools {
             p.close ();
         }
     }
-    public static void printScreen(String ImageName){
+    public static void printScreen(String ImageName){ // this function not support the apps
         try {
             Robot r = new Robot();
             Rectangle rec = new Rectangle( Toolkit.getDefaultToolkit ().getScreenSize ());// full screen

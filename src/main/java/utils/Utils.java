@@ -1,7 +1,9 @@
 
 package utils;
 
-    public class Utils {
+import Services.Exception;
+
+public class Utils {
 
         /**
          * @param second
@@ -10,8 +12,9 @@ package utils;
         public static void sleep(long second) {
             try {
                 Thread.sleep (second * 1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace ();
             }
-            catch (Exception e){}
         }
     }
 

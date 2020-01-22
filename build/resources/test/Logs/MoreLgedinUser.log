@@ -1,0 +1,83 @@
+2020-01-13 22:08:27:059 [Appium] Welcome to Appium v1.15.1
+2020-01-13 22:08:27:060 [Appium] Non-default server args:
+2020-01-13 22:08:27:061 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/Automation_DEC/src/test/resources/Logs/MoreLgedinUser.log
+2020-01-13 22:08:27:061 [Appium]   localTimezone: true
+2020-01-13 22:08:27:088 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-01-13 22:08:27:117 [HTTP] --> GET /wd/hub/status
+2020-01-13 22:08:27:117 [HTTP] {}
+2020-01-13 22:08:27:119 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-01-13 22:08:27:120 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-01-13 22:08:27:124 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2020-01-13 22:08:27:124 [HTTP] 
+2020-01-13 22:08:27:717 [HTTP] --> POST /wd/hub/session
+2020-01-13 22:08:27:718 [HTTP] {"desiredCapabilities":{"app":"/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk","takesScreenshot":"true","platformName":"Android","deviceName":"emulator-5554"},"capabilities":{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk","appium:deviceName":"emulator-5554","platformName":"android","takesScreenshot":"true"},"firstMatch":[{}]}}
+2020-01-13 22:08:27:718 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk","takesScreenshot":"true","platformName":"Android","deviceName":"emulator-5554"},null,{"alwaysMatch":{"appium:app":"/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk","appium:deviceName":"emulator-5554","platformName":"android","takesScreenshot":"true"},"firstMatch":[{}]}]
+2020-01-13 22:08:27:719 [BaseDriver] Event 'newSessionRequested' logged at 1578942507719 (22:08:27 GMT+0300 (+03))
+2020-01-13 22:08:27:722 [BaseDriver] The capabilities ["takesScreenshot"] are not standard capabilities and should have an extension prefix
+2020-01-13 22:08:27:728 [Appium] 
+2020-01-13 22:08:27:729 [Appium] ======================================================================
+2020-01-13 22:08:27:729 [Appium]   DEPRECATION WARNING:
+2020-01-13 22:08:27:730 [Appium] 
+2020-01-13 22:08:27:730 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-01-13 22:08:27:730 [Appium]   capabilities for this Android session
+2020-01-13 22:08:27:730 [Appium] 
+2020-01-13 22:08:27:730 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-01-13 22:08:27:731 [Appium]   UiAutomator2 Driver
+2020-01-13 22:08:27:731 [Appium] 
+2020-01-13 22:08:27:731 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-01-13 22:08:27:731 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-01-13 22:08:27:732 [Appium]   platforms
+2020-01-13 22:08:27:732 [Appium] 
+2020-01-13 22:08:27:732 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-01-13 22:08:27:732 [Appium]   'automationName=UiAutomator1'
+2020-01-13 22:08:27:733 [Appium] 
+2020-01-13 22:08:27:733 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-01-13 22:08:27:733 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-01-13 22:08:27:733 [Appium] 
+2020-01-13 22:08:27:733 [Appium]   For more information about drivers, please visit 
+2020-01-13 22:08:27:733 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-01-13 22:08:27:734 [Appium]   'Drivers' menu
+2020-01-13 22:08:27:734 [Appium] 
+2020-01-13 22:08:27:734 [Appium] ======================================================================
+2020-01-13 22:08:27:734 [Appium] 
+2020-01-13 22:08:27:999 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2020-01-13 22:08:28:005 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-01-13 22:08:28:005 [BaseDriver] Creating session with W3C capabilities: {
+2020-01-13 22:08:28:005 [BaseDriver]   "alwaysMatch": {
+2020-01-13 22:08:28:005 [BaseDriver]     "platformName": "android",
+2020-01-13 22:08:28:005 [BaseDriver]     "appium:takesScreenshot": "true",
+2020-01-13 22:08:28:006 [BaseDriver]     "appium:app": "/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk",
+2020-01-13 22:08:28:006 [BaseDriver]     "appium:deviceName": "emulator-5554"
+2020-01-13 22:08:28:007 [BaseDriver]   },
+2020-01-13 22:08:28:007 [BaseDriver]   "firstMatch": [
+2020-01-13 22:08:28:008 [BaseDriver]     {}
+2020-01-13 22:08:28:008 [BaseDriver]   ]
+2020-01-13 22:08:28:008 [BaseDriver] }
+2020-01-13 22:08:28:017 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-01-13 22:08:28:018 [BaseDriver]   takesScreenshot
+2020-01-13 22:08:28:020 [BaseDriver] Session created with session id: f1c45047-8ee1-4863-9cc8-4222863f9461
+2020-01-13 22:08:28:052 [BaseDriver] Using local app '/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk'
+2020-01-13 22:08:28:052 [UiAutomator2] Checking whether app is actually present
+2020-01-13 22:08:28:098 [Appium] Received SIGINT - shutting down
+2020-01-13 22:08:28:110 [ADB] Found 2 'build-tools' folders under '/Users/suaadbatis/Library/Android/sdk' (newest first):
+2020-01-13 22:08:28:110 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/28.0.3
+2020-01-13 22:08:28:110 [ADB]     /Users/suaadbatis/Library/Android/sdk/build-tools/27.0.3
+2020-01-13 22:08:28:110 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2020-01-13 22:08:28:111 [AndroidDriver] Retrieving device list
+2020-01-13 22:08:28:111 [ADB] Trying to find a connected android device
+2020-01-13 22:08:28:111 [ADB] Getting connected devices...
+2020-01-13 22:08:28:133 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2020-01-13 22:08:28:133 [AndroidDriver] Using device: emulator-5554
+2020-01-13 22:08:28:135 [ADB] Using 'adb' from '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb'
+2020-01-13 22:08:28:135 [ADB] Setting device id to emulator-5554
+2020-01-13 22:08:28:136 [ADB] Running '/Users/suaadbatis/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2020-01-13 22:08:28:260 [ADB] Current device property 'ro.build.version.sdk': 27
+2020-01-13 22:08:28:260 [ADB] Device API level: 27
+2020-01-13 22:08:28:334 [AndroidDriver] Parsing package and activity from app manifest
+2020-01-13 22:08:28:337 [ADB] Using 'apkanalyzer' from '/Users/suaadbatis/Library/Android/sdk/tools/bin/apkanalyzer'
+2020-01-13 22:08:28:338 [ADB] Starting '/Users/suaadbatis/Library/Android/sdk/tools/bin/apkanalyzer' with args ["-h","manifest","print","/Users/suaadbatis/Documents/GitHub/Automation_DEC/App/app-debug.apk"]
+2020-01-13 22:08:28:455 [HTTP] <-- POST /wd/hub/session - - ms - -
+2020-01-13 22:08:28:456 [HTTP] 
+2020-01-13 22:08:28:463 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:868:14)

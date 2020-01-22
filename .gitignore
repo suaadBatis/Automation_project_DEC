@@ -1,10 +1,9 @@
-#ignore
-
-
-/.gradle/
-/.idea/
+#.gitignore
 .idea/workspace.xml
-/ScreenShots/
-/Logs/
-/out/
-/PrintFilesFolder/
+.idea/
+
+ # Ignore Gradle GUI config
+.gradle/
+.gradletasknamecache
+!gradle-wrapper.jar
+gradle-app.setting
