@@ -1,5 +1,5 @@
-2020-01-22 20:43:53:464 [Appium] Welcome to Appium v1.15.1
-2020-01-22 20:43:53:466 [Appium] Non-default server args:
-2020-01-22 20:43:53:466 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/Automation_DEC/src/test/resources/Logs/MoreLgedinUser2020.log
-2020-01-22 20:43:53:467 [Appium]   localTimezone: true
-2020-01-22 20:43:53:503 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2020-01-24 13:34:11:578 [Appium] Welcome to Appium v1.15.1
+2020-01-24 13:34:11:580 [Appium] Non-default server args:
+2020-01-24 13:34:11:582 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/Automation_DEC/src/test/resources/Logs/MoreLgedinUser2020.log
+2020-01-24 13:34:11:582 [Appium]   localTimezone: true
+2020-01-24 13:34:11:624 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
