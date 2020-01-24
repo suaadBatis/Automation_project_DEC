@@ -3,13 +3,9 @@ package more;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.service.local.AppiumServiceBuilder;
-import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import utils.Utils;
-import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import static Services.PrintFile.PrintFiles2;
@@ -18,7 +14,7 @@ import static Services.ScreenShot.takeScreenShot;
 import static Services.ServerRunner.*;
 
 
-public class LogInOrderScreen extends base {
+public class LogInOrderScreen extends base  {
     public  static AppiumDriverLocalService service;
     AndroidDriver<AndroidElement> driver = capabilities();
     private static final String Suaad_ScreenShot=("./ScreenShots/");
@@ -28,7 +24,7 @@ public class LogInOrderScreen extends base {
 
 
     @Test
-    public void MorePageWithLoggedInUser () throws IOException {
+    public void MorePageWithLoggedInUser () throws IOException{
         ServerRunners ();
         Utils.sleep ( 1 );
         screenshots ( Suaad_ScreenShot + "finally", driver );
@@ -36,7 +32,6 @@ public class LogInOrderScreen extends base {
         String des = " Share your details here ex. Pass@word ";
         String path = "./PrintFilesFolder/suaad.txt";
         PrintFiles2 ( path, des );
-        //PrintFiles("MorePageWithLoggedInUser.txt", des);
         driver.findElementById ( "com.hungerstation.android.web.debug:id/smallLabel" ).click ();
         driver.findElementById ( "com.hungerstation.android.web.debug:id/orders_item" ).click ();
         driver.findElementById ( "com.hungerstation.android.web.debug:id/btnaction" ).click ();
